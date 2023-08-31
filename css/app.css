@@ -9,8 +9,45 @@ img {
     max-width: 100%;
 }
 
+html {
+    font-family: 'Nunito', sans-serif;
+    /* font-family: 'Open Sans', sans-serif; */
+}
+
+/* utility classes */
+
 .clearfix {
     content: '';
     display: table;
     clear: both;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+/* Header */
+
+.title {
+    text-align: center;
+    padding: 40px 0;
+    font-size: 25px;
+    color: #e53170;
+}
+
+/* cards-introduction section */
+
+.cards-introduction {
+    text-align: center;
+}
+
+
+
+
+
+/* DEBUG */
+
+.container {
+    background-color: aquamarine;
 }
