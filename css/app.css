@@ -16,8 +16,8 @@ html {
 
 /* utility classes */
 
-.clearfix {
-    content: '';
+.clearfix::after {
+    content: " ";
     display: table;
     clear: both;
 }
@@ -25,6 +25,10 @@ html {
 .container {
     max-width: 1100px;
     margin: 0 auto;
+}
+
+.margin-down {
+    margin-bottom: 40px;
 }
 
 /* Header */
@@ -42,12 +46,46 @@ html {
     text-align: center;
 }
 
+/* cards-wrapper section */
+.cards-wrapper {
+    padding: 50px 0;
+}
 
+.column {
+    float: left;
+    margin-right: 30px;
+    width: calc((100% - 60px)/3);
+}
+
+.column:nth-child(3n){
+    margin-right: 0;
+}
+
+
+/* footer styling  */
+.info {
+    background-color: #222222;
+    padding: 50px 0 70px 0;
+    text-align: center;
+    color: white;
+    min-height: 250px;
+}
 
 
 
 /* DEBUG */
 
 .container {
-    background-color: aquamarine;
+    border-left: 3px dashed red;
+    border-right: 3px dashed red;
+}
+
+.card {
+    min-height: 100px;
+    background-color: aliceblue;
+    border: 2px solid black;
+}
+
+.cards-wrapper {
+    border: 2px solid green;
 }
