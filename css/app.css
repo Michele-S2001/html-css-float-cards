@@ -92,17 +92,5 @@ html {
     text-align: center;
     color: white;
     min-height: 250px;
-}
-
-
-
-/* DEBUG */
-
-.debug .container {
-    border-left: 3px dashed red;
-    border-right: 3px dashed red;
-}
-
-.card {
-    min-height: 100px;
+    font-size: 20px;
 }
