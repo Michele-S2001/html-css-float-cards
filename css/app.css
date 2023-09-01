@@ -10,7 +10,7 @@ p {
     margin-block-end: 0;
 }
 
-a{
+a {
     text-decoration: none;
     color: #6ebdfa;
     font-style: normal;
@@ -85,7 +85,7 @@ html {
     padding: 15px 0;
 }
 
-.card > img{
+.card > .card__image{
     float: left;
     max-width: 30%;
     margin-right: 20px;
